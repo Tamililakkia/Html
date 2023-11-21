@@ -1,3 +1,4 @@
+// Switch
 console.log("switch....")
 switch ("addAndSub")
 {
@@ -14,6 +15,7 @@ switch ("addAndSub")
         console.log("invalid option is selected")
         break;
 }
+// Loops
 console.log("Advanced for loop....")
 let array1 = [1,"Tamil","frontend","8am batch"]
 for(let element of array1)
@@ -37,6 +39,7 @@ for (let o in obj)
     console.log(o)
     console.log(obj[o])
 }
+// Inbuild methods
 console.log("inbuld methods.....")
 console.log("predefined methods....")
 let str = "This is javascript class"
