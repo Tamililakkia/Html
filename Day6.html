@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #p1{
+            height: 20vh;
+            width: 30vw;
+            background-color: antiquewhite;
+            /* transform: translate(100px,100px); */
+            /* transform: rotate(30deg); */
+            transition: 3s;
+            animation-name: exam;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes exam{
+            0%{
+                background-color: blueviolet;
+                transform: translateY(50%);
+            }
+            25%{
+                transform: rotate(60deg);
+            }
+            50%{
+                background-color: brown;
+                height: 60vh;
+                border-radius: 50%;
+            }
+            75%{
+                transform: skew(60deg);
+            }
+            100%{
+                background-color: green;
+                transform: translateY(75%);
+            }
+        }
+
+        /* #p1:hover{
+            transform: skew(30deg) !important;
+            transform: rotate(60deg);
+        } */
+    </style>
+</head>
+<body>
+    <div id="p1">
+    </div>
+</body>
+</html>
